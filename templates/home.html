@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="cards-container">
+        {% for car in cars %}
+            <div class="card">
+                <img src="{{ car.image.url }}" class="card-img-top" alt="{{ car.image.url }}">
+                <div class="card-body">
+                    <h5 class="card-title"><span style="color:red">{{ car.title }}</span></h5>
+                    {% if car.description|length > 80 %}
+                        <p class="card-text">{{ car.description|slice:100}}</p>
+                    {% else %}
+                        <p class="card-text">{{ car.description }}</p>
+                    {% endif %}
+
+                    <a href="{% url 'more' car.id %}" class="btn btn-primary">See more 👀</a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

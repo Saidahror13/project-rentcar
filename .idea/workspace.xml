@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f0b7489b-7697-40ef-b5b0-39ee075b25f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/cars/car_detail.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OKbTtHahYJDr2qAOt0GFkThrzY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/erkinov/project-rentcar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0b7489b-7697-40ef-b5b0-39ee075b25f2" name="Changes" comment="" />
+      <created>1681312232031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681312232031</updated>
+      <workItem from="1681312233193" duration="712000" />
+      <workItem from="1681312997162" duration="1223000" />
+      <workItem from="1681314259776" duration="318000" />
+      <workItem from="1681314603704" duration="78000" />
+      <workItem from="1681314693632" duration="51000" />
+      <workItem from="1681314799879" duration="68000" />
+      <workItem from="1681314890609" duration="171000" />
+      <workItem from="1681315076902" duration="77000" />
+      <workItem from="1681315317676" duration="55000" />
+      <workItem from="1681315398207" duration="770000" />
+      <workItem from="1681316190060" duration="174000" />
+      <workItem from="1681316983383" duration="257000" />
+      <workItem from="1681317357759" duration="1340000" />
+      <workItem from="1681318723140" duration="1028000" />
+      <workItem from="1681319819531" duration="265000" />
+      <workItem from="1681320144829" duration="43000" />
+      <workItem from="1681320215869" duration="590000" />
+      <workItem from="1681326246409" duration="886000" />
+      <workItem from="1681329253778" duration="35000" />
+      <workItem from="1681329494702" duration="205000" />
+      <workItem from="1681329779211" duration="1316000" />
+      <workItem from="1681334169367" duration="297000" />
+      <workItem from="1681364325358" duration="283000" />
+      <workItem from="1681364652272" duration="538000" />
+      <workItem from="1681365251913" duration="2729000" />
+      <workItem from="1681368592507" duration="884000" />
+      <workItem from="1681369579136" duration="815000" />
+      <workItem from="1681370492826" duration="114000" />
+      <workItem from="1681370835979" duration="1350000" />
+      <workItem from="1681372422179" duration="70000" />
+      <workItem from="1681372518504" duration="1516000" />
+      <workItem from="1681379292214" duration="478000" />
+      <workItem from="1681390995337" duration="788000" />
+      <workItem from="1681391795301" duration="17000" />
+      <workItem from="1681391864213" duration="5000" />
+      <workItem from="1681392191333" duration="250000" />
+      <workItem from="1681398326670" duration="9000" />
+      <workItem from="1681398349264" duration="862000" />
+      <workItem from="1681399238734" duration="799000" />
+      <workItem from="1681468011183" duration="356000" />
+      <workItem from="1681468395956" duration="1544000" />
+      <workItem from="1681470075566" duration="1716000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

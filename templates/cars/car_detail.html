@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="card" style="width: 18rem;">
+        <img src="{{ car.image.url }}" class="card-img-top" alt="{{ car.image.url }}">
+        <div class="card-body">
+            <p class="card-text"><span style="color: #ff0000">{{ car.title }}</span></p>
+            <p class="card-text">{{ car.description }}</p>
+            <p class="card-text"><span style="color: #1d00ff">Car made year :</span> {{ car.made_year }}</p>
+              <p class="card-text"><span style="color: #1200ff">Car mator capacity : </span>{{ car.mator }}</p>
+              <p class="card-text"><span style="color: #1d00ff"> Car color : </span>{{ car.color }}</p>
+            <p class="card-text"><span style="color: red">Car price  : </span>{{ car.price }}</p>
+            <p class="card-text"><span style="color: red">Car category id : </span>{{ car.category_id }}</p>
+            <p class="card-text"><span style="color: red">Car owner id: </span>{{ car.owner_id }}</p>
+
+        </div>
+    </div>
+{% endblock %}
