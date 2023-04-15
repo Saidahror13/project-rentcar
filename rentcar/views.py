@@ -1,8 +1,13 @@
-from django.views.generic import ListView, DetailView
+from django.views.generic import ListView, DetailView, TemplateView
 from django.shortcuts import render
 from rentcar.models import Car
 
 
+class CarListView(TemplateView):
+    template_name = 'home.html'
+
+
+#
 class CarListView(ListView):
     queryset = Car.objects.all()
     template_name = 'home.html'
@@ -20,7 +25,6 @@ class CarDetailView(DetailView):
 
 
 def cardetail(req, pk):
-
     context = {
         'car': Car.objects.get(id=pk)
     }
