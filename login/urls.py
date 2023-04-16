@@ -9,4 +9,9 @@ urlpatterns = [
     path('logout/', LogoutView.as_view(), name='logout')
 ]
 
-
+# from django.urls import path
+# from .views import SignUpView
+#
+# urlpatterns = [
+#     path('signup/', SignUpView.as_view(), name='signup')
+# ]
