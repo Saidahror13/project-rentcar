@@ -10,3 +10,8 @@ class AccountLoginView(LoginView):
     form_class = CustomAuthenticationForm
     template_name = 'login/login.html'
 
+
+class AccountRegisterView(LoginView):
+    form_class = CustomAuthenticationForm
+    template_name = 'login/signup.html'
+

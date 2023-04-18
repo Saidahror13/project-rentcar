@@ -14,8 +14,8 @@ class CarListView(ListView):
     context_object_name = 'cars'
 
 
-class salom(DetailView):
-    queryset = Car.objects.all()
+# class salom(DetailView):
+#     queryset = Car.objects.all()
 
 
 class CarDetailView(DetailView):
@@ -29,3 +29,23 @@ def cardetail(req, pk):
         'car': Car.objects.get(id=pk)
     }
     return render(req, 'cars/car_detail.html', context)
+
+
+class CarCategories(ListView):
+    queryset = Car.objects.all()
+    template_name = 'cars/car_categories.html'
+    context_object_name = 'categories'
+
+
+class BuyNow(DetailView):
+    queryset = Car.objects.all()
+    template_name = 'cars/buy_now.html'
+    context_object_name = 'buy'
+
+
+class Discount(ListView):
+    queryset = Car.objects.order_by('-id')
+    template_name = 'cars/discount.html'
+    context_object_name = 'discount'
+
+

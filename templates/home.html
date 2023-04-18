@@ -1,7 +1,15 @@
 {% extends 'base.html' %}
 
+{% block style %}
+    <style>
+        .home {
+            float: right;
+        }
+    </style>
+{% endblock %}
 {% block content %}
     <div class="cards-container">
+        <a id="toptop"></a>
         {% for car in cars %}
             <div class="card">
                 <img src="{{ car.image.url }}" class="card-img-top" alt="{{ car.image.url }}">
@@ -17,6 +25,8 @@
                 </div>
             </div>
         {% endfor %}
+        <a class="btn btn-primary home" href="#toptop">⬆ Homepage </a>
+
     </div>
 {% endblock %}
 

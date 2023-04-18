@@ -1,0 +1,64 @@
+{#<div class="form-check">#}
+{#    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">#}
+{#    <label class="form-check-label" for="flexCheckDefault">#}
+{#        Uzcard#}
+{#    </label>#}
+{#</div>#}
+{#<div class="form-check">#}
+{#    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>#}
+{#    <label class="form-check-label" for="flexCheckChecked">#}
+{#        Humo#}
+{#    </label>#}
+{#</div>#}
+{##}
+{##}
+{#<form>#}
+{#    <div class="mb-3">#}
+{#        <label for="exampleInputEmail1" class="form-label">Enter card number</label>#}
+{#        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">#}
+{#        <div id="emailHelp" class="form-text">We will send you message on your phone +998** *** ** ** .</div>#}
+{#    </div>#}
+{#    <div class="mb-3">#}
+{#        <label for="exampleInputPassword1" class="form-label">Card expires</label>#}
+{#        <input type="password" class="form-control" id="exampleInputPassword1">#}
+{#    </div>#}
+{#    <div class="mb-3 form-check">#}
+{#        <input type="checkbox" class="form-check-input" id="exampleCheck1">#}
+{#        <label class="form-check-label" for="exampleCheck1">Check me out</label>#}
+{#    </div>#}
+{#    <button type="submit" class="btn btn-primary">Submit</button>#}
+{#</form>#}
+{##}
+{##}
+{##}
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <link href="{% static 'login.css' %}" rel="stylesheet">
+    <body>
+
+    <div id="card">
+        <div id="card-content">
+            <div id="card-title" class="left">
+                <h2>Pay Rent 💳 </h2>
+                <div class="underline-title"></div>
+            </div>
+            <form method="post" class="form">
+                <label for="user-email" style="padding-top:13px">
+                    &nbsp;Enter your card
+                </label>
+                <input id="user-email" class="form-content" type="email" name="email" autocomplete="on" required/>
+                <div class="form-border"></div>
+                <label for="user-password" style="padding-top:22px">&nbsp;Card expires date
+                </label>
+                <input id="user-password" class="form-content" type="password" name="password" required/>
+                <div class="form-border"></div>
+                <a href="#">
+                    <legend id="forgot-pass">Didn't get the SMS code 💬?</legend>
+                </a>
+                <input id="submit-btn" type="submit" name="submit" value="Submit ✔"/>
+                <a href="#" id="signup">Don't let the Bank 💰?</a>
+            </form>
+        </div>
+    </div>
+{% endblock %}

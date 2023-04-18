@@ -8,70 +8,69 @@
           integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link href="{% static 'style.css' %}" rel="stylesheet">
     <style>
-        .nav-item{
+        .nav-item {
             margin-left: 5px;
         }
     </style>
+    {% block style %}{% endblock %}
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">">
+<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">">
 
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><span style="color: #991eee">i8 Rent Car Service</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Car raitings</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Car categories</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="basket/">Basket</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-                {% if user.is_authenticated %}
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span style="color: #ffffff">i8 Rent Car Service</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="http://127.0.0.1:8000/discount/">Discounts 📉</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="categories">Car categories</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#"><span style="color: #eecd3c">Honesty > trumps profit</span></a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            {% if user.is_authenticated %}+
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'login:login' %}">
+                        <button type="button" class="btn btn-success">Login</button>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'login:signup' %}">
+                        <button type="button" class="btn btn-primary">Register</button>
+                    </a>
+                </li>
+                ujk
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'login:login' %}">
-                            <button type="button" class="btn btn-success">Login</button>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'login:login' %}">
-                            <button type="button" class="btn btn-primary">Register</button>
-                        </a>
-                    </li>
-
-
-                    {% else %}
-                        <li class="nav-item">
-                            <a class="nav-link" href="{% url 'login:login' %}">
-                                <button type="button" class="btn btn-primary">Logout</button>
-                            </a>
-                        </li>
-                {% endif %}
-                </ul>
-            </div>
+            {% else %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'login:login' %}">
+                        <button type="button" class="btn btn-primary">Logout</button>
+                    </a>
+                </li>
+            {% endif %}
+            </ul>
         </div>
-        </div>
-    </nav>
-    {% block content %}
+    </div>
+    </div>
+</nav>
+{% block content %}
 
-
-
-    {% endblock %}
+{% endblock %}
 </body>
+
 
 
 

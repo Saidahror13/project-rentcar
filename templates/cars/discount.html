@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>cars discount </title>
+</head>
+<body>
+<h1> Discounts in <span style="color: #ffd700"> Ramadan Kareem ☪</span></h1>
+{% for car in discount %}
+    <h2 class="card-title"><span style="color:#0047ce">{{ car.title }} </span> ➡ {{ car.price }} $ / <span
+            style="color: #991eee">30% discount</span></h2>
+{% endfor %}
+</body>
+

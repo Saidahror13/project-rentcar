@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>car categories</title>
+</head>
+<body>
+
+<h1>Our Car Categories <span style="color: #7c2fff">⤵</span></h1>
+{% for category in categories %}
+
+    {#    {% if category.category_id == category.title.id %}#}
+    <h2 class="card-title"><span style="color:#7c2fff">{{ category.category.name }} </span> <span
+            style="color: #7c2fff">➡ </span>{{ category.title }}</h2>
+    {#    {% endif %}#}
+
+{% endfor %}
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

@@ -28,3 +28,8 @@ class Category(models.Model):
 class Owner(models.Model):
     name = models.CharField(max_length=50)
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, null=True)
+
+
+class PayRent(models.Model):
+    card = models.CharField(max_length=16)
+    expire = models.CharField(max_length=5)
