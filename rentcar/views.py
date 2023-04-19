@@ -25,8 +25,9 @@ class CarDetailView(DetailView):
 
 
 def cardetail(req, pk):
+    car = Car.objects.get(id=pk)
     context = {
-        'car': Car.objects.get(id=pk)
+        'car': car
     }
     return render(req, 'cars/car_detail.html', context)
 
@@ -47,5 +48,3 @@ class Discount(ListView):
     queryset = Car.objects.order_by('-id')
     template_name = 'cars/discount.html'
     context_object_name = 'discount'
-
-

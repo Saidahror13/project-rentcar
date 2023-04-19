@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0b7489b-7697-40ef-b5b0-39ee075b25f2" name="Changes" comment="project main update">
-      <change afterPath="$PROJECT_DIR$/templates/login/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login/profile_editl.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/car/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rentcar/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rentcar/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +164,7 @@
       <workItem from="1681888441664" duration="3872000" />
       <workItem from="1681897475827" duration="8043000" />
       <workItem from="1681910580689" duration="3619000" />
-      <workItem from="1681922831860" duration="1390000" />
+      <workItem from="1681922831860" duration="5270000" />
     </task>
     <task id="LOCAL-00001" summary="project main update">
       <created>1681574666106</created>
@@ -201,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681839153390</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="project main update">
+      <created>1681926812880</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681926812880</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
