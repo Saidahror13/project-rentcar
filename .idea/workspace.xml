@@ -5,25 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0b7489b-7697-40ef-b5b0-39ee075b25f2" name="Changes" comment="project main update">
-      <change afterPath="$PROJECT_DIR$/templates/cars/buy_now.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/cars/car_categories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/cars/discount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/profile_editl.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/car/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rentcar/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rentcar/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rentcar/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rentcar/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rentcar/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rentcar/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cars/car_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cars/car_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,6 +38,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OKbTtHahYJDr2qAOt0GFkThrzY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -166,6 +167,11 @@
       <workItem from="1681759624400" duration="972000" />
       <workItem from="1681763008629" duration="9896000" />
       <workItem from="1681808437347" duration="11445000" />
+      <workItem from="1681838973056" duration="2956000" />
+      <workItem from="1681888441664" duration="3872000" />
+      <workItem from="1681897475827" duration="8043000" />
+      <workItem from="1681910580689" duration="3619000" />
+      <workItem from="1681922831860" duration="1390000" />
     </task>
     <task id="LOCAL-00001" summary="project main update">
       <created>1681574666106</created>
@@ -188,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681721395193</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="project main update">
+      <created>1681839153390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681839153390</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
