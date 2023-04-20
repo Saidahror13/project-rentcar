@@ -28,7 +28,8 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="http://127.0.0.1:8000/discount/">Discounts 📉</a>
+                    <a class="nav-link active" aria-current="page" href="http://127.0.0.1:8000/discount/">Discounts
+                        📉</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{% url "categories" %}">Car categories</a>
@@ -41,36 +42,36 @@
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
-            {% if user.is_authenticated %}
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'login:login' %}">
-                        <button type="button" class="btn btn-success">Login</button>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'login:signup' %}">
-                        <button type="button" class="btn btn-primary">Register</button>
-                    </a>
-                </li>
-                ujk
-
-            {% else %}
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'login:login' %}">
-                        <button type="button" class="btn btn-primary">Logout</button>
-                    </a>
-                </li>
-            {% endif %}
+            {#          {% if user.is_staff %}#}
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'login:profile' %}">
+                    <button type="button" class="btn btn-success">Profile</button>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'login:logout' %}">
+                    <button type="button" class="btn btn-primary">Logout</button>
+                </a>
+            </li>
+            {#                {% else %}#}
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'login:login' %}">
+                    <button type="button" class="btn btn-success">Login</button>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'login:signup' %}">
+                    <button type="button" class="btn btn-primary">Register</button>
+                </a>
+            </li>
+            {#                {% endif %}#}
             </ul>
         </div>
     </div>
-    </div>
 </nav>
 {% block content %}
-
 {% endblock %}
 </body>
-
-
+</html>
 
 

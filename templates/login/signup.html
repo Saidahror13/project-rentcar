@@ -1,42 +1,59 @@
+{#{% extends 'base.html' %}#}
+{#{% load static %}#}
+{#{% block content %}#}
+{#    <link href="{% static 'login.css' %}" rel="stylesheet">#}
+{#    <body>#}
+{##}
+{#    <div id="card">#}
+{#        <div id="card-content">#}
+{#            <div id="card-title" class="left">#}
+{#                <h2>Sign up</h2>#}
+{#                <div class="underline-title"></div>#}
+{#            </div>#}
+{#            <form method="post" class="form">#}
+{#                <label for="user-firstname" style="padding-top:13px">#}
+{#                    &nbsp;Username#}
+{#                </label>#}
+{#                <input id="user-firstname" class="form-content" type="firstname" name="firstname" autocomplete="on"#}
+{#                       required/>#}
+{#                <div class="form-border"></div>#}
+{#                <label for="user-phonenumber" style="padding-top:13px">#}
+{#                    &nbsp;Phone number#}
+{#                </label>#}
+{#                <input id="user-phonenumber" class="form-content" type="phonenumber" name="phonenumber" autocomplete="on" required/>#}
+{#                <div class="form-border"></div>#}
+{#                <label for="user-email" style="padding-top:13px">#}
+{#                    &nbsp;Email#}
+{#                </label>#}
+{#                <input id="user-email" class="form-content" type="email" name="email" autocomplete="on" required/>#}
+{#                <div class="form-border"></div>#}
+{#                <label for="user-password" style="padding-top:22px">&nbsp;Password#}
+{#                </label>#}
+{#                <input id="user-password" class="form-content" type="password" name="password" required/>#}
+{#                <div class="form-border"></div>#}
+{#                <a href="#">#}
+{#                    <legend id="forgot-pass">Forgot password?</legend>#}
+{#                </a>#}
+{#                <input id="submit-btn" type="submit" name="submit" value="Sign Up"/>#}
+{#                <a href="#" id="signup">Don't have account yet?</a>#}
+{#            </form>#}
+{#        </div>#}
+{#    </div>#}
+{#{% endblock %}#}
 {% extends 'base.html' %}
-{% load static %}
-{% block content %}
-    <link href="{% static 'login.css' %}" rel="stylesheet">
-    <body>
 
-    <div id="card">
-        <div id="card-content">
-            <div id="card-title" class="left">
-                <h2>Sign up</h2>
-                <div class="underline-title"></div>
-            </div>
-            <form method="post" class="form">
-                <label for="user-firstname" style="padding-top:13px">
-                    &nbsp;Username
-                </label>
-                <input id="user-firstname" class="form-content" type="firstname" name="firstname" autocomplete="on"
-                       required/>
-                <div class="form-border"></div>
-                <label for="user-phonenumber" style="padding-top:13px">
-                    &nbsp;Phone number
-                </label>
-                <input id="user-phonenumber" class="form-content" type="phonenumber" name="phonenumber" autocomplete="on" required/>
-                <div class="form-border"></div>
-                <label for="user-email" style="padding-top:13px">
-                    &nbsp;Email
-                </label>
-                <input id="user-email" class="form-content" type="email" name="email" autocomplete="on" required/>
-                <div class="form-border"></div>
-                <label for="user-password" style="padding-top:22px">&nbsp;Password
-                </label>
-                <input id="user-password" class="form-content" type="password" name="password" required/>
-                <div class="form-border"></div>
-                <a href="#">
-                    <legend id="forgot-pass">Forgot password?</legend>
-                </a>
-                <input id="submit-btn" type="submit" name="submit" value="Sign Up"/>
-                <a href="#" id="signup">Don't have account yet?</a>
-            </form>
-        </div>
-    </div>
+{% block content %}
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li  {% if message.tags %} class=" {{ message.tags }} " {% endif %}> {{ message }} </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    <h1>Register</h1>
+    <form action="{% url 'login:signup' %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Register">
+    </form>
 {% endblock %}
