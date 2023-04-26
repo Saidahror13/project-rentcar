@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0b7489b-7697-40ef-b5b0-39ee075b25f2" name="Changes" comment="project main update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f0b7489b-7697-40ef-b5b0-39ee075b25f2" name="Changes" comment="static settings.py">
       <change beforePath="$PROJECT_DIR$/car/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/car/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +178,7 @@
       <workItem from="1682020991338" duration="46000" />
       <workItem from="1682025729644" duration="5235000" />
       <workItem from="1682439217941" duration="1400000" />
-      <workItem from="1682491729392" duration="13229000" />
+      <workItem from="1682491729392" duration="13387000" />
     </task>
     <task id="LOCAL-00001" summary="project main update">
       <created>1681574666106</created>
@@ -314,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682518791062</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="static settings.py">
+      <created>1682519081293</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1682519081293</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +328,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project main update" />
-    <option name="LAST_COMMIT_MESSAGE" value="project main update" />
+    <MESSAGE value="static settings.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="static settings.py" />
   </component>
 </project>
