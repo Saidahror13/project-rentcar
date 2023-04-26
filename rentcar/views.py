@@ -19,7 +19,7 @@ class CarListView(ListView):
 
 
 class CarDetailView(DetailView):
-    queryset = Car.objects.all().first()
+    queryset = Car.objects.all()
     template_name = 'cars/car_detail.html'
     context_object_name = 'car'
 

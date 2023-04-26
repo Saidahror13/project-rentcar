@@ -2,6 +2,20 @@ from django.db import models
 from django.conf import settings
 
 
+class Category(models.Model):
+    name = models.CharField(max_length=50)
+
+
+class Owner(models.Model):
+    name = models.CharField(max_length=50)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, null=True)
+
+
+class PayRent(models.Model):
+    card = models.CharField(max_length=16)
+    expire = models.CharField(max_length=5)
+
+
 class Car(models.Model):
     class LanguageTypes(models.TextChoices):
         UZBEK = 'uzbek', 'Uzbek'
@@ -17,19 +31,6 @@ class Car(models.Model):
     price = models.IntegerField()
     motor = models.TextField()
     image = models.ImageField()
-    category = models.ForeignKey('Category', on_delete=models.CASCADE, related_name='rentcar')
-    owner = models.ForeignKey('Owner', on_delete=models.CASCADE, related_name='rentcar')
+    category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='category')
+    owner = models.ForeignKey(Owner, on_delete=models.CASCADE, related_name='owner')
 
-
-class Category(models.Model):
-    name = models.CharField(max_length=50)
-
-
-class Owner(models.Model):
-    name = models.CharField(max_length=50)
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, null=True)
-
-
-class PayRent(models.Model):
-    card = models.CharField(max_length=16)
-    expire = models.CharField(max_length=5)
