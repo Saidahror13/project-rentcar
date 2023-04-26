@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0b7489b-7697-40ef-b5b0-39ee075b25f2" name="Changes" comment="project main update">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2cd8cd38-799b-4e09-b2ec-f99359a68a4f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2cd8cd38-799b-4e09-b2ec-f99359a68a4f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2cd8cd38-799b-4e09-b2ec-f99359a68a4f/storage_v2/_src_/database/rentcar.-y0kQQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2cd8cd38-799b-4e09-b2ec-f99359a68a4f/storage_v2/_src_/database/rentcar.-y0kQQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/car/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rentcar/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rentcar/migrations/0002_payrent.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rentcar/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rentcar/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rentcar/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rentcar/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +179,7 @@
       <workItem from="1682020991338" duration="46000" />
       <workItem from="1682025729644" duration="5235000" />
       <workItem from="1682439217941" duration="1400000" />
-      <workItem from="1682491729392" duration="12895000" />
+      <workItem from="1682491729392" duration="13229000" />
     </task>
     <task id="LOCAL-00001" summary="project main update">
       <created>1681574666106</created>
@@ -316,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682512578259</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="project main update">
+      <created>1682518791062</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1682518791062</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
