@@ -1,12 +1,12 @@
 from django.contrib.auth.views import LogoutView
 from django.urls import path
 
-from login.views import custom_login, profile, profile_edit, profile_delete, RegisterView
+from registration.views import custom_login, profile, profile_edit, profile_delete, RegisterView
 
-app_name = "login"
+app_name = "registration"
 
 urlpatterns = [
-    path("login/", custom_login, name="login"),
+    path("registration/", custom_login, name="registration"),
     path("logout/", LogoutView.as_view(), name="logout"),
     path("profile/", profile, name="profile"),
     # path("<int:pk>/edit/", UserProfileUpdate.as_view(), name="profile_edit"),
@@ -18,11 +18,11 @@ urlpatterns = [
 
 # from django.contrib.auth.views import LogoutView
 # from django.urls import path
-# from login.views import AccountLoginView, AccountRegisterView
+# from registration.views import AccountLoginView, AccountRegisterView
 #
-# app_name = 'login'
+# app_name = 'registration'
 #
-# urlpatterns = [#     path('login/', AccountLoginView.as_view(), name='login'),
+# urlpatterns = [#     path('registration/', AccountLoginView.as_view(), name='registration'),
 #     path('logout/', LogoutView.as_view(), name='logout'),
 #     path('signup/', AccountRegisterView.as_view(), name='signup'),
 #

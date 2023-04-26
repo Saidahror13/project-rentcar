@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rentcar',
-    'login'
+    'registration'
 
 ]
 
@@ -119,8 +119,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-LOGIN_URL = 'login:login'
-LOGIN_REDIRECT_URL = 'login:profile'
+LOGIN_URL = 'registration:registration'
+LOGIN_REDIRECT_URL = 'registration:profile'
 LOGOUT_REDIRECT_URL = 'homepage'
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
@@ -150,4 +150,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_ROOT = BASE_DIR / 'media'
 MEDIA_URL = 'media/'
 
-AUTH_USER_MODEL = "login.User"
+AUTH_USER_MODEL = "registration.User"

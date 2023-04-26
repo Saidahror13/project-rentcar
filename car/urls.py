@@ -23,8 +23,8 @@ Including another URLconf
 #                   path('admin/', admin.site.urls),
 #                   path('account/', include('django.contrib.auth.urls')),
 #                   path('', include('rentcar.urls')),
-#                   path('login/', include('login.urls')),
-#                   path('signup/', include('login.urls')),
+#                   path('registration/', include('registration.urls')),
+#                   path('signup/', include('registration.urls')),
 #                   path('categories/', include('rentcar.urls')),
 #                   path('buy/', include('rentcar.urls')),
 #                   path('discount/', include('rentcar.urls')),
@@ -41,8 +41,8 @@ from django.conf import settings
 urlpatterns = [
                   path('admin/', admin.site.urls),
                   path('', include('rentcar.urls')),
-                  path('login/', include('login.urls')),
-                  # path('signup/', include('login.urls')),
+                  path('registration/', include('registration.urls')),
+                  # path('signup/', include('registration.urls')),
                   # path('categories/', include('rentcar.urls')),
                   path('buy/', include('rentcar.urls')),
                   # path('discount/', include('rentcar.urls'))

@@ -7,8 +7,8 @@ from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
 from django.views.generic import DetailView, CreateView, UpdateView
 
-from login.forms import RegistrationForm, CustomAuthenticationForm, UserUpdateForm
-from login.models import User
+from registration.forms import RegistrationForm, CustomAuthenticationForm, UserUpdateForm
+from registration.models import User
 
 
 class AccountLoginView(LoginView):

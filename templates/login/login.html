@@ -1,7 +1,7 @@
 {#{% extends 'base.html' %}#}
 {#{% load static %}#}
 {#{% block content %}#}
-{#    <link href="{% static 'login.css' %}" rel="stylesheet">#}
+{#    <link href="{% static 'registration.css' %}" rel="stylesheet">#}
 {#    <body>#}
 {##}
 {#    <div id="card">#}
@@ -33,7 +33,7 @@
 
 {% block content %}
     <h1>Login</h1>
-    <form action="{% url 'login:login' %}" method="post">
+    <form action="{% url 'registration:registration' %}" method="post">
         {% csrf_token %}
         {{ form.as_p }}
         {#        <label for="username">Username:</label>#}

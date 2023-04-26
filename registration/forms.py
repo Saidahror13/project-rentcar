@@ -2,7 +2,7 @@ from django import forms
 from django.contrib.auth.forms import UsernameField
 from django.utils.translation import gettext_lazy as _
 
-from login.models import User
+from registration.models import User
 
 
 class CustomAuthenticationForm(forms.Form):
