@@ -42,11 +42,9 @@ urlpatterns = [
                   path('admin/', admin.site.urls),
                   path('', include('rentcar.urls')),
                   path('registration/', include('registration.urls')),
-                  # path('signup/', include('registration.urls')),
-                  # path('categories/', include('rentcar.urls')),
+                  path('signup/', include('registration.urls')),
+                  path('categories/', include('rentcar.urls')),
                   path('buy/', include('rentcar.urls')),
                   # path('discount/', include('rentcar.urls'))
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-
-
