@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0b7489b-7697-40ef-b5b0-39ee075b25f2" name="Changes" comment="static settings.py">
-      <change beforePath="$PROJECT_DIR$/car/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/car/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="f0b7489b-7697-40ef-b5b0-39ee075b25f2" name="Changes" comment="static settings.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +50,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/erkinov/project-rentcar",
+    "last_opened_file_path": "/home/saidahror/Desktop/project-rentcar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,7 +77,6 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="car.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -179,6 +176,7 @@
       <workItem from="1682025729644" duration="5235000" />
       <workItem from="1682439217941" duration="1400000" />
       <workItem from="1682491729392" duration="13387000" />
+      <workItem from="1682581953366" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="project main update">
       <created>1681574666106</created>
