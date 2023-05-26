@@ -6,7 +6,6 @@ from django.contrib.messages import get_messages
 from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
 from django.views.generic import DetailView, CreateView, UpdateView
-
 from registration.forms import RegistrationForm, CustomAuthenticationForm, UserUpdateForm
 from registration.models import User
 

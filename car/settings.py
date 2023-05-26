@@ -15,7 +15,7 @@ import environ
 from pathlib import Path
 import environ
 import os
-import staticaw
+import static
 
 # load_dotenv()
 
